@@ -17,9 +17,12 @@ html {
     font-style: normal;
 
 }
+body {
+
+}
 /*WRAPPER*/
 #wrapper {
-    width: 1160px;
+
 }
 /*HEADER SITTINGS*/
 #header {
@@ -29,8 +32,13 @@ html {
 }
 #logo_name_img {
     object-fit: cover;
-    height: 39px;
-    width: 39px;
+    height: 81px;
+    width: 81px;
+}
+/*SPECIAL_OFFER_SECTION*/
+#special_offer_section {
+    background-image: url("image/top-banner.jpg");
+    height: 673px;
 }
 /*NAVIGATION*/
 #nav_ul {
