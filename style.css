@@ -9,6 +9,26 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('font_futura/FuturaDemiC-Italic.eot');
+    src: local('font_futura/Futura Demi Italic Cyrillic'), local('font_futura/FuturaDemiC-Italic'),
+    url('font_futura/FuturaDemiC-Italic.eot?#iefix') format('embedded-opentype'),
+    url('font_futura/FuturaDemiC-Italic.woff') format('woff'),
+    url('font_futura/FuturaDemiC-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'FuturaLightC';
+    src: url('font_futura/FuturaLightC.eot');
+    src: local('font_futura/Futura Light Cyrillic'), local('font_futura/FuturaLightC'),
+    url('font_futura/FuturaLightC.eot?#iefix') format('embedded-opentype'),
+    url('font_futura/FuturaLightC.woff') format('woff'),
+    url('font_futura/FuturaLightC.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
@@ -49,21 +69,29 @@ a:hover {
     color: #CAA869;
     font-size: 50px;
     display: flex;
-    margin: auto;
+    justify-content: center;
+    margin: 25px 0 25px 0;
 }
 #logo_name_img {
     object-fit: cover;
     height: 81px;
     width: 81px;
 }
+#logo_name_1 {
+    padding-right: 40px;
+}
+#logo_name_2 {
+    padding-left: 40px;
+}
 /*END HEADER SITTINGS*/
 
 /*SPECIAL_OFFER_SECTION*/
 #special_offer_section {
     background: url("image/top-banner 2.jpg") no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 673px;
     color: #F4F4F4;
+    object-fit: cover;
 }
 /*NAVIGATION*/
 #nav_ul {
@@ -75,18 +103,47 @@ a:hover {
     display: inline-block;
     padding: 26px;
 }
+/*SPECIAL OFFER*/
+#sp_offer {
+    padding: 154px 0 0 140px;
+}
 /*SPECIAL OFFER BIG TEXT*/
 #sp_offer_1 {
-    padding-left: 265px;
+    font-family: 'FuturaDemiC';
     display: flex;
     flex-direction: row;
+    height: 140px;
+}
+#sp_offer_2 {
+    font-family: 'FuturaLightC';
+    font-style: italic;
 }
 #big_two {
     font-size: 180px;
     position: relative;
-    top: -25px;
+    top: -26px;
 }
 #sp_big {
     font-size: 40px;
     text-align: left;
+}
+#sp_offer_p {
+    font-size: 26px;
+}
+#booking_fc_button {
+    background: none;
+    color: #CAA869;
+    font-size: 30px;
+    text-decoration: none;
+    padding: .2em 2em;
+    outline: none;
+    border: 2px solid #CAA869;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+#booking_fc_button:hover {
+    background: rgba(255,255,255,.2);
+}
+#booking_fc_button:active {
+    background: white;
 }
