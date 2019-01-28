@@ -1,10 +1,42 @@
+/*FONTS*/
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url('font_futura/FuturaMediumC.eot');
+    src: local('font_futura/Futura Medium Cyrillic'), local('font_futura/FuturaMediumC'),
+    url('font_futura/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+    url('font_futura/FuturaMediumC.woff') format('woff'),
+    url('font_futura/FuturaMediumC.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 /*HTML Sittings*/
 html {
     background-color: #302F2B;
-}
+    font-family: 'FuturaMediumC';
+    font-weight: 500;
+    font-style: normal;
 
+}
+/*WRAPPER*/
+#wrapper {
+    width: 1160px;
+}
 /*HEADER SITTINGS*/
+#header {
+    color: #CAA869;
+    text-align: center;
+    align-items: center;
+}
 #logo_name_img {
+    object-fit: cover;
     height: 39px;
     width: 39px;
+}
+/*NAVIGATION*/
+#nav_ul {
+    list-style-type: none;
+    text-align: center;
+}
+.nav_ul_li {
+    display: inline-block;
 }
