@@ -9,6 +9,11 @@
     font-weight: 500;
     font-style: normal;
 }
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /*HTML Sittings*/
 html {
     background-color: #302F2B;
@@ -20,31 +25,68 @@ html {
 body {
 
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #f4f4f4;
+
+}
+a:active {
+    color: #CAA869;
+}
+a:hover {
+    color: #CAA869;
+    text-decoration: underline;
+}
 /*WRAPPER*/
 #wrapper {
 
 }
 /*HEADER SITTINGS*/
 #header {
-    color: #CAA869;
     text-align: center;
-    align-items: center;
+    color: #CAA869;
+    font-size: 50px;
+    display: flex;
+    margin: auto;
 }
 #logo_name_img {
     object-fit: cover;
     height: 81px;
     width: 81px;
 }
+/*END HEADER SITTINGS*/
+
 /*SPECIAL_OFFER_SECTION*/
 #special_offer_section {
-    background-image: url("image/top-banner.jpg");
+    background: url("image/top-banner 2.jpg") no-repeat;
+    background-size: 100%;
     height: 673px;
+    color: #F4F4F4;
 }
 /*NAVIGATION*/
 #nav_ul {
     list-style-type: none;
     text-align: center;
+    font-size: 23px;
 }
 .nav_ul_li {
     display: inline-block;
+    padding: 26px;
+}
+/*SPECIAL OFFER BIG TEXT*/
+#sp_offer_1 {
+    padding-left: 265px;
+    display: flex;
+    flex-direction: row;
+}
+#big_two {
+    font-size: 180px;
+    position: relative;
+    top: -25px;
+}
+#sp_big {
+    font-size: 40px;
+    text-align: left;
 }
