@@ -110,6 +110,8 @@ a:hover {
 /*SPECIAL OFFER BIG TEXT*/
 #sp_offer_1 {
     font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
     display: flex;
     flex-direction: row;
     height: 140px;
