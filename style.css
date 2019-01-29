@@ -283,6 +283,38 @@ a:hover {
 #a_j_us:active {
     background: white;
 }
+/*END HARD PARTY*/
+
+/*START MEMBERSHIP PART*/
+#membership {
+    padding-top: 7%;
+}
+#headline_mem {
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 37px;
+    background: #757474;
+    padding: 50px 0;
+}
+#headline_mem:before {
+    content: '';
+    background: #CAA869;
+    height: 3px;
+    width: 14%;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    right: 34px;
+}#headline_mem:after {
+     content: '';
+     background: #CAA869;
+     height: 3px;
+     width: 14%;
+     display: inline-block;
+     position: relative;
+     top: -8px;
+     left: 34px;
+ }
 
 
 
