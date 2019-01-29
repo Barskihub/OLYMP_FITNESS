@@ -318,13 +318,28 @@ a:hover {
     text-align: center;
     margin: auto;
     padding-top: 1%;
-    justify-items:  ;
+    justify-content: space-between;
 }
 #6m_sec {
     border: 2px solid black;
 }
 #d_sec_1 {
     text-align: center;
+}
+.art_sec_h3 {
+    font-size: 37px;
+    color: #f4f4f4;
+}
+.white_no {
+    font-size: 37px;
+    color: #f4f4f4;
+}
+.gray_no {
+    font-size: 33px;
+    color: #757474;
+}
+.sub_d {
+    font-size: 20px;
 }
 
 
