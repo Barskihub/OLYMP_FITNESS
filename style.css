@@ -152,5 +152,58 @@ a:hover {
 /*END SPECIAL OFFER PART*/
 
 /*SOME THINGS ABOUT US*/
-
+#headline_st {
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 37px;
+    background: #CAA869;
+    padding: 50px 0;
+}
+#headline_st:before {
+    content: '';
+    background: #302F2B;
+    height: 3px;
+    width: 14%;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    right: 34px;
+}#headline_st:after {
+     content: '';
+     background: #302F2B;
+     height: 3px;
+     width: 14%;
+     display: inline-block;
+     position: relative;
+     top: -8px;
+     left: 34px;
+ }
+ #main_text_st {
+     margin: auto;
+     text-align: center;
+     font-size: 35px;
+     color: #f4f4f4;
+     padding-top: 39px;
+     width: 62.3%;
+     position: relative;
+ }
+ /*HARD PARTY!!!*/
+#plus_st {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+}
+.pl_1 {
+    text-align: left;
+    display: inline-block;
+}
+.pl_2 {
+    text-align: right;
+}
+.js_number {
+    font-size: 65px;
+    color: #f4f4f4;
+    width: 1px;
+    height: 100px;
+}
 
