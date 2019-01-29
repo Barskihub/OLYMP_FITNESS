@@ -196,7 +196,7 @@ a:hover {
 /*FIRST ROW*/
 #pl_1_1 {
     text-align: left;
-    padding: 13% 0 0 27%;
+    padding: 13% 0 0 35%;
 }
 #pl_1_2 {
     text-align: left;
@@ -239,4 +239,28 @@ a:hover {
     text-align: center;
     padding: 16% 0 0 24%;
 }
+
+/*LINES*/
+/*#pl_2_1:before {
+    content: url("image/Line_1.png");
+    display: block;
+    margin: -74% 38% -12% -31%;
+}
+#pl_1_2:before {
+    content: url("image/Line_2.png");
+    display: block;
+    margin: -6% 0% -47.2% -46%;
+    padding-top: 15%;
+}
+#pl_1_2:after {
+    content: url("image/Line_3.png");
+    display: block;
+    margin: 0 0 0 0;
+}*/
+
+#a_j_us {
+    text-align: center;
+}
+
+
 
