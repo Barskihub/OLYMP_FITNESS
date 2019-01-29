@@ -257,7 +257,9 @@ a:hover {
     display: block;
     margin: 0 0 0 0;
 }*/
-
+#a_join {
+    display: flex;
+}
 #a_j_us {
     text-align: center;
 }
