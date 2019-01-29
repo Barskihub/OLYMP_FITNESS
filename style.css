@@ -315,22 +315,24 @@ a:hover {
 #membership_art {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 55px;
     text-align: center;
     margin: auto;
     padding-top: 7%;
     justify-content: space-between;
     width: 80%;
+
 }
-#6m_sec {
-    border: 2px solid black;
-    border-radius: 1px;
+#m6_sec, #m6_12_sec, #m12_sec {
+    border: dashed 3px #CAA869;
+    border-radius: 6px;
 }
 #d_sec_1 {
     text-align: center;
 }
 .art_sec_h3 {
     font-size: 37px;
-    color: red;
+    color: #f4f4f4;
 }
 .white_no {
     font-size: 37px;
