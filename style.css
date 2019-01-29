@@ -259,9 +259,29 @@ a:hover {
 }*/
 #a_join {
     display: flex;
+    padding-top: 91px;
 }
 #a_j_us {
+    font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
     text-align: center;
+    color: #f4f4f4;
+    margin: auto;
+    background: none;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    outline: none;
+    border: 1px solid #CAA869;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+#a_j_us:hover {
+    background: rgba(255,255,255,.2);
+}
+#a_j_us:active {
+    background: white;
 }
 
 
