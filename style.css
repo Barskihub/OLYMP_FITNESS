@@ -193,17 +193,49 @@ a:hover {
     grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
 }
-.pl_1 {
+/*FIRST ROW*/
+#pl_1_1 {
     text-align: left;
-    display: inline-block;
+    padding: 13% 0 0 27%;
 }
-.pl_2 {
-    text-align: right;
+#pl_1_2 {
+    text-align: left;
+    padding: 13% 0 0 19%;
 }
 .js_number {
     font-size: 65px;
+    color: #f4f4f4
+}
+#div_pl_up_1 {
+    display: flex;
+}
+#div_pl_up_2 {
+    display: flex;
+}
+#m2 {
+    font-size: 28px;
     color: #f4f4f4;
-    width: 1px;
-    height: 100px;
+    padding-top: 24px;
+}
+.p_pl_down {
+    font-size: 30px;
+    color: #CAA869;
+}
+#div_mt {
+    font-size: 23px;
+    font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
+    color: #f4f4f4;
+    padding-top: 8px;
+}
+/*SECOND ROW*/
+#pl_2_1 {
+    text-align: center;
+    padding: 16% 0 0 48%;
+}
+#pl_2_2 {
+    text-align: center;
+    padding: 16% 0 0 24%;
 }
 
