@@ -327,11 +327,29 @@ a:hover {
     border: dashed 3px #CAA869;
     border-radius: 6px;
 }
+#m6_sec {
+    height: 87%;
+}
+#m12_sec {
+    height: 96%;
+}
+#m6_sec:hover, #m6_12_sec:hover, #m12_sec:hover {
+    background: rgba(202,168,105,0.11);
+    border: 3px solid #CAA869;
+}
 #d_sec_1 {
     text-align: center;
 }
 .art_sec_h3 {
     font-size: 37px;
+    color: #f4f4f4;
+    padding-top: 10%;
+    border-bottom: 1px solid #C72C48;
+    width: 60%;
+    margin: auto;
+}
+#mor {
+    font-size: 30px;
     color: #f4f4f4;
 }
 .white_no {
@@ -345,6 +363,64 @@ a:hover {
 .sub_d {
     font-size: 20px;
 }
+.under_cost {
+    font-size: 29px;
+    color: #f4f4f4;
+    padding-top: 10%;
+    margin: auto;
+    width: 90%;
+}
+.li_mem {
+    list-style-type: none;
+    font-size: 25px;
+    color: #f4f4f4;
+    width: 85%;
+    margin: auto;
+    text-align: left;
+    padding-top: 1%;
+}
+.li_mem:before {
+    content: "✓";
+    color: #C72C48;
+}
+#div_sec_1, #div_sec_3 {
+    padding-top: 10%;
+}
+#div_sec_2 {
+    padding-top: 5%;
+}
+.a_ch_b {
+    font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color: #f4f4f4;
+    margin: auto;
+    background: none;
+    font-size: 29px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    outline: none;
+    border: 1px solid #CAA869;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.a_ch_b:hover {
+    background: rgba(255,255,255,.2);
+}
+.a_ch_b:active {
+    background: white;
+}
+#d_a_ch_1 {
+    padding-top: 10%;
+}
+.d_a_ch_2_3 {
+    padding-bottom: 12%;
+    padding-top: 10%;
+}
+
+
 
 
 
