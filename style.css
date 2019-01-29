@@ -204,7 +204,8 @@ a:hover {
 }
 .js_number {
     font-size: 65px;
-    color: #f4f4f4
+    color: #f4f4f4;
+    opacity: 0%;
 }
 #div_pl_up_1 {
     display: flex;
