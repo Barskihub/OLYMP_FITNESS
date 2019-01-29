@@ -47,13 +47,10 @@ body {
 }
 a {
     text-decoration: none;
+    color: #f4f4f4;
 }
 a:visited {
     color: #f4f4f4;
-
-}
-a:active {
-    color: #CAA869;
 }
 a:hover {
     color: #CAA869;
@@ -315,6 +312,20 @@ a:hover {
      top: -8px;
      left: 34px;
  }
+#membership_art {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+    justify-items:  ;
+}
+#6m_sec {
+    border: 2px solid black;
+}
+#d_sec_1 {
+    text-align: center;
+}
 
 
 
