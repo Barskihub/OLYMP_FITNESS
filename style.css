@@ -493,7 +493,7 @@ a:hover {
     height: 100%;
 }
 /*Photo_Box*/
-#photo_box {
+.photo_box {
     display: flex;
 }
 .photo_back {
@@ -501,11 +501,22 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+.div_ph:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 .div_ph {
     width: 100%;
     object-fit: cover;
     height: 100%;
+    opacity: 0.56;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
 }
 .title_ph {
     margin: auto;
@@ -513,11 +524,136 @@ a:hover {
     font-size: 30px;
     opacity: 0.75;
     background: #4F4F4F;
-    color: #979797;
+    color: #f4f4f4;
+    padding: 0 12px;
 }
-.gym_ph_el {
-    width: 45vw;
+.div_ph {
+    opacity: 0.56;
 }
+.dance_ph_el {
+    width: 57vw;
+}
+.mas_ph_el {
+    width: 42vw;
+    height: 35vw;
+}
+.yoga_ph_el {
+    width: 68vw;
+    height: 14vw;
+}
+#gallery:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2vw;
+    background: #CAA869;
+}
+/*END GALLERY*/
+
+/*START FORM*/
+
+#div_join_us {
+    padding-top: 7%;
+    text-align: center;
+}
+#div_ju_form {
+    width: 885px;
+    margin: auto;
+}
+#header_form {
+    font-size: 50px;
+    color: #f4f4f4;
+    font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+
+}
+#header_form, #under_header_form {
+    padding-left: 5vw;
+    position: relative;
+}
+#under_header_form {
+    font-size: 37px;
+    color: #f4f4f4;
+    font-family: 'FuturaLightC';
+    font-style: italic;
+    text-align: left;
+    padding-top: 2%;
+}
+#form_ju {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 60px;
+}
+#form_name, #form_number {
+    font-size: 43px;
+    color: #f4f4f4;
+    font-style: italic;
+    text-align: left;
+}
+#form_number {
+    padding-left: 10vw;
+}
+#name_number {
+    display: flex;
+}
+.form_name_f {
+    border: none;
+    font-size: 31px;
+    background: none;
+    border-bottom: 1px solid #f4f4f4;
+    color: #f4f4f4;
+}
+#form_button {
+    padding-top: 9%;
+}
+#button {
+    font-size: 40px;
+    font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
+    color: #F4F4F4;
+    background: none;
+    border: 2px solid #CAA869;
+    padding: 1rem 6rem;
+}
+#button:hover {
+    background: rgba(255,255,255,.2);
+}
+#button:active {
+    background: #f4f4f4;
+    color: #CAA869;
+}
+#main_section:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1vw;
+    background: #CAA869;
+    margin-top: 10%;
+}
+/*END FORM*/
+
+/*START FOOTER*/
+#footer_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#logo_div {
+    margin: auto;
+    color: #f4f4f4;
+    font-size: 26px;
+    background: url("image/Logo.png") no-repeat;
+    background-size: 4vw 4vw;
+    background-position: top;
+    padding: 15px;
+}
+
+
+
 
 
 
