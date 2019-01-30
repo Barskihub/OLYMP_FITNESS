@@ -42,9 +42,6 @@ html {
     font-style: normal;
 
 }
-body {
-
-}
 a {
     text-decoration: none;
     color: #f4f4f4;
@@ -57,11 +54,12 @@ a:hover {
     text-decoration: underline;
 }
 /*WRAPPER*/
-#wrapper {
+
+.all_page {
 
 }
 /*HEADER SITTINGS*/
-#header {
+.header_el {
     text-align: center;
     color: #CAA869;
     font-size: 50px;
@@ -69,21 +67,21 @@ a:hover {
     justify-content: center;
     margin: 25px 0 25px 0;
 }
-#logo_name_img {
+.logo_name_img_el {
     object-fit: cover;
     height: 81px;
     width: 81px;
 }
-#logo_name_1 {
+.logo_name_1_el {
     padding-right: 40px;
 }
-#logo_name_2 {
+.logo_name_2_el {
     padding-left: 40px;
 }
 /*END HEADER SITTINGS*/
 
 /*SPECIAL_OFFER_SECTION*/
-#special_offer_section {
+.special_offer_section_el {
     background: url("image/top-banner 2.jpg") no-repeat;
     background-size: 100% 100%;
     height: 673px;
@@ -91,7 +89,7 @@ a:hover {
     object-fit: cover;
 }
 /*NAVIGATION*/
-#nav_ul {
+.nav_ul_el {
     list-style-type: none;
     text-align: center;
     font-size: 23px;
@@ -101,11 +99,11 @@ a:hover {
     padding: 26px;
 }
 /*SPECIAL OFFER*/
-#sp_offer {
+.sp_offer_el {
     padding: 154px 0 0 140px;
 }
 /*SPECIAL OFFER BIG TEXT*/
-#sp_offer_1 {
+.sp_offer_1_el {
     font-family: 'FuturaDemiC';
     font-weight: normal;
     font-style: italic;
@@ -113,23 +111,23 @@ a:hover {
     flex-direction: row;
     height: 140px;
 }
-#sp_offer_2 {
+.sp_offer_2_el {
     font-family: 'FuturaLightC';
     font-style: italic;
 }
-#big_two {
+.big_2_el {
     font-size: 180px;
     position: relative;
     top: -26px;
 }
-#sp_big {
+.sp_big_el {
     font-size: 40px;
     text-align: left;
 }
-#sp_offer_p {
+.sp_offer_p_el {
     font-size: 26px;
 }
-#booking_fc_button {
+.booking_fc_button_el {
     background: none;
     color: #CAA869;
     font-size: 30px;
@@ -140,23 +138,23 @@ a:hover {
     border-radius: 1px;
     transition: 0.2s;
 }
-#booking_fc_button:hover {
+.booking_fc_button_el:hover {
     background: rgba(255,255,255,.2);
 }
-#booking_fc_button:active {
+.booking_fc_button_el:active {
     background: white;
 }
 /*END SPECIAL OFFER PART*/
 
 /*SOME THINGS ABOUT US*/
-#headline_st {
+.headline_st_el {
     text-align: center;
     color: #f4f4f4;
     font-size: 37px;
     background: #CAA869;
     padding: 50px 0;
 }
-#headline_st:before {
+.headline_st_el:before {
     content: '';
     background: #302F2B;
     height: 3px;
@@ -165,7 +163,8 @@ a:hover {
     position: relative;
     top: -8px;
     right: 34px;
-}#headline_st:after {
+}
+.headline_st_el:after {
      content: '';
      background: #302F2B;
      height: 3px;
@@ -175,7 +174,7 @@ a:hover {
      top: -8px;
      left: 34px;
  }
- #main_text_st {
+ .main_text_st_el {
      margin: auto;
      text-align: center;
      font-size: 35px;
@@ -185,17 +184,17 @@ a:hover {
      position: relative;
  }
  /*HARD PARTY!!!*/
-#plus_st {
+.plus_st_el {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
 }
 /*FIRST ROW*/
-#pl_1_1 {
+.pl_1_1_el {
     text-align: left;
     padding: 13% 0 0 35%;
 }
-#pl_1_2 {
+.pl_1_2_el {
     text-align: left;
     padding: 13% 0 0 19%;
 }
@@ -204,13 +203,10 @@ a:hover {
     color: #f4f4f4;
     opacity: 0%;
 }
-#div_pl_up_1 {
+.div_pl_up_el {
     display: flex;
 }
-#div_pl_up_2 {
-    display: flex;
-}
-#m2 {
+.m2_el {
     font-size: 28px;
     color: #f4f4f4;
     padding-top: 24px;
@@ -219,7 +215,7 @@ a:hover {
     font-size: 30px;
     color: #CAA869;
 }
-#div_mt {
+.div_mt_el {
     font-size: 23px;
     font-family: 'FuturaDemiC';
     font-weight: normal;
@@ -228,11 +224,11 @@ a:hover {
     padding-top: 8px;
 }
 /*SECOND ROW*/
-#pl_2_1 {
+.pl_2_1_el {
     text-align: center;
     padding: 16% 0 0 48%;
 }
-#pl_2_2 {
+.pl_2_2_el {
     text-align: center;
     padding: 16% 0 0 24%;
 }
@@ -254,11 +250,11 @@ a:hover {
     display: block;
     margin: 0 0 0 0;
 }*/
-#a_join {
+.a_join_1_el {
     display: flex;
     padding-top: 91px;
 }
-#a_j_us {
+.a_j_us_el {
     font-family: 'FuturaDemiC';
     font-weight: normal;
     font-style: italic;
@@ -274,11 +270,12 @@ a:hover {
     border-radius: 1px;
     transition: 0.2s;
 }
-#a_j_us:hover {
+.a_j_us_el:hover {
     background: rgba(255,255,255,.2);
 }
-#a_j_us:active {
-    background: rgba(202,168,105,0.11);
+.a_j_us_el:active {
+    background: #f4f4f4;
+    color: #CAA869;
 }
 /*END HARD PARTY*/
 
@@ -410,7 +407,8 @@ a:hover {
     background: rgba(255,255,255,.2);
 }
 .a_ch_b:active {
-    background: white;
+    background: #CAA869;
+    color: #f4f4f4;
 }
 #d_a_ch_1 {
     padding-top: 10%;
@@ -419,6 +417,115 @@ a:hover {
     padding-bottom: 12%;
     padding-top: 10%;
 }
+#under_mem {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 7%;
+}
+#p1_um {
+    color: #f4f4f4;
+    font-family: 'FuturaLightC';
+    font-style: italic;
+    font-size: 37px;
+}
+#a_join_mem {
+    padding-left: 3%;
+}
+#a_j_us_mem {
+    font-family: 'FuturaDemiC';
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color: #f4f4f4;
+    margin: auto;
+    background: none;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    outline: none;
+    border: 1px solid #CAA869;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+#a_j_us_mem:hover {
+    background: rgba(255,255,255,.2);
+}
+#a_j_us_mem:active {
+    background: #f4f4f4;
+    color: #CAA869;
+}
+/*END MEMBERSHIP*/
+
+/*START GALLERY*/
+#gallery {
+    padding-top: 7%;
+}
+#header_gal {
+    text-align: center;
+    color: #f4f4f4;
+}
+#h_gal_h2 {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+}
+#h_gal_h2:before, #h_gal_h2:after {
+    content:"";
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+#h_gal_h2:before {
+    background: #302F2B;
+    z-index: -1;
+    height: 101%;
+    left: -45px;
+    right: -45px;
+}
+#h_gal_h2:after {
+    background: #CAA869;
+    width: 100vw;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: -2;
+    height: 100%;
+}
+/*Photo_Box*/
+#photo_box {
+    display: flex;
+}
+.photo_back {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_ph {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.title_ph {
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    opacity: 0.75;
+    background: #4F4F4F;
+    color: #979797;
+}
+.gym_ph_el {
+    width: 45vw;
+}
+
+
+
+
+
+
+
+
 
 
 
