@@ -78,6 +78,9 @@ a:hover {
 .logo_name_2_el {
     padding-left: 40px;
 }
+#header_mobile {
+    display: none;
+}
 /*END HEADER SITTINGS*/
 
 /*SPECIAL_OFFER_SECTION*/
@@ -701,23 +704,46 @@ a:hover {
 /*Mobile design*/
 @media (max-width: 700px) {
     /*Fixed header*/
-    header {
-        display: grid;
-    }
-    .logo_name_1_el, .logo_name_2_el {
+    h2 {
         font-size: 16px;
-        padding: 0;
     }
-    #logo_name_img {
+    .header_el {
+        margin: 15px 0 8px 0;
+    }
+    #logo_name_1, #logo_name_img, #logo_name_2 {
+        display: none;
+    }
+    #logo_name_img_mobile {
         height: 32px;
         width: 33px;
     }
     #nav_bar {
         display: none;
     }
-    #nav_bar_mobile {
-        display: block;
+    #header_mobile {
+        display: grid;
+        grid-gap: 17px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
     }
+    #mob_h {
+        font-size: 16px;
+        margin: auto;
+    }
+    #nav_menu {
+        font-size: 12px;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #menu_t {
+        font-size: 14px;
+    }
+    #menu_t_logo {
+        padding: 2px 0 0 4px;
+    }
+
 }
 
 
