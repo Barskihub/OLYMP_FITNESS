@@ -700,7 +700,9 @@ a:hover {
     #form_name {
         text-align: center;
     }
-
+}
+/*Mobile design*/
+@media (max-width: 500px) {
     /*Fixed header*/
     h2 {
         font-size: 16px;
