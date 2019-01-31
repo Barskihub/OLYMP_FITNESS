@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87108504-0d3c-4371-9eca-d57c007016d0" name="Default Changelist" comment="Check on webstorm">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5051" />
+          <entry key="css" value="5147" />
           <entry key="html" value="4029" />
           <entry key="js" value="62" />
           <entry key="txt" value="31" />
@@ -51,7 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5051" />
+          <entry key="CSS" value="5147" />
           <entry key="HTML" value="4029" />
           <entry key="JavaScript" value="62" />
           <entry key="PLAIN_TEXT" value="31" />
@@ -88,8 +86,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="650">
-                  <caret line="807" column="24" lean-forward="true" selection-start-line="807" selection-start-column="24" selection-end-line="807" selection-end-column="24" />
+                <state relative-caret-position="451">
+                  <caret line="702" lean-forward="true" selection-start-line="702" selection-end-line="702" />
                 </state>
               </provider>
             </entry>
@@ -202,12 +200,12 @@
       <workItem from="1548684522627" duration="2712000" />
       <workItem from="1548687972839" duration="13459000" />
       <workItem from="1548718508741" duration="45166000" />
-      <workItem from="1548946372176" duration="9617000" />
+      <workItem from="1548946372176" duration="10014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70954000" />
+    <option name="totallyTimeSpent" value="71351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -300,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="807" column="24" lean-forward="true" selection-start-line="807" selection-start-column="24" selection-end-line="807" selection-end-column="24" />
+        <state relative-caret-position="451">
+          <caret line="702" lean-forward="true" selection-start-line="702" selection-end-line="702" />
         </state>
       </provider>
     </entry>
