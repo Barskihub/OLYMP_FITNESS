@@ -601,7 +601,7 @@ a:hover {
     display: flex;
 }
 .form_name_f {
-    border: none;
+    border: 1px solid #302F2B;
     font-size: 31px;
     background: none;
     border-bottom: 1px solid #f4f4f4;
