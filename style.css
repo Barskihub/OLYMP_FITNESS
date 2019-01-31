@@ -98,6 +98,9 @@ a:hover {
     display: inline-block;
     padding: 26px;
 }
+#nav_bar_mobile {
+    display: none;
+}
 /*SPECIAL OFFER*/
 .sp_offer_el {
     padding: 154px 0 0 140px;
@@ -694,8 +697,27 @@ a:hover {
     #form_name {
         text-align: center;
     }
-
-    
+}
+/*Mobile design*/
+@media (max-width: 700px) {
+    /*Fixed header*/
+    header {
+        display: grid;
+    }
+    .logo_name_1_el, .logo_name_2_el {
+        font-size: 16px;
+        padding: 0;
+    }
+    #logo_name_img {
+        height: 32px;
+        width: 33px;
+    }
+    #nav_bar {
+        display: none;
+    }
+    #nav_bar_mobile {
+        display: block;
+    }
 }
 
 
