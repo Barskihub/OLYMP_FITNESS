@@ -745,11 +745,15 @@ a:hover {
     }
     /*END HEADER*/
     /*START SPECIAL OFFER MOBILE*/
+    .special_offer_section_el {
+        background-size: 100vw 53vw;
+        height: 52vw;
+    }
     .sp_offer_el {
         padding: 19px 0 0 46px;
     }
     .sp_offer_1_el {
-        height: 49px;
+        height: 54px;
     }
     .big_2_el {
         font-size: 60px;
@@ -810,8 +814,17 @@ a:hover {
     /*END some things*/
 
     /*Start membership*/
-
-
+    #headline_mem {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    #headline_mem:before, #headline_mem:after {
+        display: none;
+    }
+    #membership_art {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
