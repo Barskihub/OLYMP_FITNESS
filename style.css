@@ -702,7 +702,7 @@ a:hover {
     }
 }
 /*Mobile design*/
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     /*Fixed header*/
     h2 {
         font-size: 16px;
@@ -722,7 +722,7 @@ a:hover {
     }
     #header_mobile {
         display: grid;
-        grid-gap: 17px;
+        grid-gap: 9px;
         grid-template-columns: repeat(3, 1fr);
         margin: auto;
     }
@@ -743,6 +743,74 @@ a:hover {
     #menu_t_logo {
         padding: 2px 0 0 4px;
     }
+    /*END HEADER*/
+    /*START SPECIAL OFFER MOBILE*/
+    .sp_offer_el {
+        padding: 19px 0 0 46px;
+    }
+    .sp_offer_1_el {
+        height: 49px;
+    }
+    .big_2_el {
+        font-size: 60px;
+        top: -7px;
+    }
+    .sp_big_el {
+        font-size: 15px;
+    }
+    .sp_offer_p_el {
+        font-size: 9px;
+        height: 20px;
+    }
+    .booking_fc_button_el {
+        font-size: 12px;
+        border: 1px solid #CAA869;
+        padding: 0.2em 0.5em;
+    }
+    /*Some things start*/
+    .headline_st_el {
+        font-size: 15px;
+        padding: 11px 0;
+    }
+    .headline_st_el::before, .headline_st_el::after {
+        display: none;
+    }
+    .main_text_st_el {
+        font-size: 15px;
+        width: 74.3%;
+        letter-spacing: 1px;
+    }
+    .plus_st_el {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pl_1_1_el, .pl_1_2_el, .pl_2_1_el, .pl_2_2_el {
+        padding: 20px 0 0 0;
+        margin: auto;
+        text-align: center;
+    }
+    #div_pl_up_1, #div_pl_up_2 {
+        justify-content: center;
+    }
+    .js_number {
+        height: 50px;
+        font-size: 50px;
+    }
+    #a_join {
+        display: none;
+    }
+    .m2_el {
+        font-size: 19px;
+    }
+    .p_pl_down {
+        font-size: 20px;
+    }
+    .div_mt_el {
+        font-size: 17px;
+    }
+    /*END some things*/
+
+    /*Start membership*/
+    
 
 }
 
