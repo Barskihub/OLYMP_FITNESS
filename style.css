@@ -535,11 +535,11 @@ a:hover {
 }
 .mas_ph_el {
     width: 42vw;
-    height: 35vw;
+    height: 46vw;
 }
 .yoga_ph_el {
     width: 68vw;
-    height: 14vw;
+    height: 24vw;
 }
 #gallery:after {
     content: "";
@@ -651,7 +651,35 @@ a:hover {
     background-position: top;
     padding: 15px;
 }
+/*END FOOTER*/
 
+/*START ADAPTIVE*/
+
+@media (max-width: 1000px) {
+    .art_sec_h3 {
+        font-size: 33px;
+    }
+    .white_no {
+        font-size: 25px;
+    }
+    .gray_no {
+        font-size: 25px;
+    }
+    .under_cost {
+        font-size: 22px;
+    }
+    .li_mem {
+        font-size: 19px;
+        padding-top: 5%;
+    }
+    .a_ch_b {
+        font-size: 24px;
+        
+    }
+    #m6_sec, #m6_12_sec, #m12_sec {
+        margin: auto;
+    }
+}
 
 
 
