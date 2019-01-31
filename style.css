@@ -679,6 +679,21 @@ a:hover {
     #m6_sec, #m6_12_sec, #m12_sec {
         margin: auto;
     }
+    #div_ju_form {
+        width: auto;
+    }
+    #name_number {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    #form_number {
+        padding: 0;
+        text-align: center;
+    }
+    #form_name {
+        text-align: center;
+    }
 }
 
 
