@@ -855,3 +855,13 @@ a:hover {
         padding: 0.2em 0.5em;
     }
 }
+@media (max-width: 510px) {
+    .sp_offer_el {
+        padding: 12vw 0 0 7vw;
+    }
+}
+@media (max-width: 390px) {
+    .sp_offer_el {
+        padding: 4vw 0 0 7vw;
+    }
+}
