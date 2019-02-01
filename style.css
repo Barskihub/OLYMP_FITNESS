@@ -106,7 +106,7 @@ a:hover {
 }
 /*SPECIAL OFFER*/
 .sp_offer_el {
-    padding: 154px 0 0 140px;
+    padding: 11vw 0 0 11vw;
 }
 /*SPECIAL OFFER BIG TEXT*/
 .sp_offer_1_el {
@@ -171,25 +171,25 @@ a:hover {
     right: 34px;
 }
 .headline_st_el:after {
-     content: '';
-     background: #302F2B;
-     height: 3px;
-     width: 14%;
-     display: inline-block;
-     position: relative;
-     top: -8px;
-     left: 34px;
- }
- .main_text_st_el {
-     margin: auto;
-     text-align: center;
-     font-size: 35px;
-     color: #f4f4f4;
-     padding-top: 39px;
-     width: 62.3%;
-     position: relative;
- }
- /*HARD PARTY!!!*/
+    content: '';
+    background: #302F2B;
+    height: 3px;
+    width: 14%;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    left: 34px;
+}
+.main_text_st_el {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: #f4f4f4;
+    padding-top: 39px;
+    width: 62.3%;
+    position: relative;
+}
+/*HARD PARTY!!!*/
 .plus_st_el {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -660,8 +660,20 @@ a:hover {
 /*END FOOTER*/
 
 /*START ADAPTIVE*/
-
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
+    .sp_offer_el {
+        padding: 3vw 0 0 14vw;
+    }
+}
+@media (max-width: 900px) {
+    .sp_offer_el {
+        padding: 1vw 0 0 5vw;
+    }
+    #booking_fc_button {
+        padding: .2em 1em;
+    }
+}
+@media (max-width: 1080px) {
     .art_sec_h3 {
         font-size: 33px;
     }
@@ -680,7 +692,6 @@ a:hover {
     }
     .a_ch_b {
         font-size: 24px;
-        
     }
     #m6_sec, #m6_12_sec, #m12_sec {
         margin: auto;
@@ -700,9 +711,27 @@ a:hover {
     #form_name {
         text-align: center;
     }
+    .sp_offer_el {
+        padding: 2vw 0 0 6vw;
+    }
+}
+@media (max-width: 860px) {
+    .big_2_el {
+        font-size: 145px;
+    }
+    .sp_big_el {
+        font-size: 31px;
+        text-align: left;
+    }
+    .sp_offer_p_el {
+        font-size: 20px;
+    }
+    .sp_offer_1_el {
+        height: 105px;
+    }
 }
 /*Mobile design*/
-@media (max-width: 700px) {
+@media (max-width: 730px) {
     /*Fixed header*/
     h2 {
         font-size: 23px;
@@ -724,6 +753,7 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: auto;
+        grid-gap: 20%;
     }
     #mob_h {
         font-size: 16px;
@@ -745,32 +775,6 @@ a:hover {
     }
     /*END HEADER*/
     /*START SPECIAL OFFER MOBILE*/
-    .special_offer_section_el {
-        background-size: 100vw 53vw;
-        height: 52vw;
-    }
-    .sp_offer_el {
-        padding: 4vw 0 0 7vw;
-    }
-    .sp_offer_1_el {
-        height: 74px;
-    }
-    .big_2_el {
-        font-size: 80px;
-        top: -7px;
-    }
-    .sp_big_el {
-        font-size: 21px;
-    }
-    .sp_offer_p_el {
-        font-size: 14px;
-        height: 33px;
-    }
-    .booking_fc_button_el {
-        font-size: 12px;
-        border: 1px solid #CAA869;
-        padding: 0.2em 0.5em;
-    }
     /*Some things start*/
     .headline_st_el {
         font-size: 15px;
@@ -826,18 +830,34 @@ a:hover {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 530px) {
+    #header_mobile {
+        grid-gap: 0;
+    }
+    .special_offer_section_el {
+        background-size: 100vw 53vw;
+        height: 52vw;
+    }
+    .sp_offer_el {
+        padding: 4vw 0 0 7vw;
+    }
+    .sp_offer_1_el {
+        height: 74px;
+    }
+    .big_2_el {
+        font-size: 80px;
+        top: -7px;
+    }
+    .sp_big_el {
+        font-size: 21px;
+    }
+    .sp_offer_p_el {
+        font-size: 14px;
+        height: 33px;
+    }
+    .booking_fc_button_el {
+        font-size: 12px;
+        border: 1px solid #CAA869;
+        padding: 0.2em 0.5em;
+    }
+}
