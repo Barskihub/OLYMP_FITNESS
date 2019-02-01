@@ -702,10 +702,10 @@ a:hover {
     }
 }
 /*Mobile design*/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     /*Fixed header*/
     h2 {
-        font-size: 16px;
+        font-size: 23px;
     }
     .header_el {
         margin: 15px 0 8px 0;
@@ -714,15 +714,14 @@ a:hover {
         display: none;
     }
     #logo_name_img_mobile {
-        height: 32px;
-        width: 33px;
+        height: 39px;
+        width: 40px;
     }
     #nav_bar {
         display: none;
     }
     #header_mobile {
         display: grid;
-        grid-gap: 9px;
         grid-template-columns: repeat(3, 1fr);
         margin: auto;
     }
@@ -738,10 +737,11 @@ a:hover {
         grid-template-columns: repeat(2, 1fr);
     }
     #menu_t {
-        font-size: 14px;
+        font-size: 21px;
     }
     #menu_t_logo {
-        padding: 2px 0 0 4px;
+        padding: 4px 0 6px 4px;
+        height: 24px;
     }
     /*END HEADER*/
     /*START SPECIAL OFFER MOBILE*/
@@ -750,21 +750,21 @@ a:hover {
         height: 52vw;
     }
     .sp_offer_el {
-        padding: 19px 0 0 46px;
+        padding: 4vw 0 0 7vw;
     }
     .sp_offer_1_el {
-        height: 54px;
+        height: 74px;
     }
     .big_2_el {
-        font-size: 60px;
+        font-size: 80px;
         top: -7px;
     }
     .sp_big_el {
-        font-size: 15px;
+        font-size: 21px;
     }
     .sp_offer_p_el {
-        font-size: 9px;
-        height: 20px;
+        font-size: 14px;
+        height: 33px;
     }
     .booking_fc_button_el {
         font-size: 12px;
