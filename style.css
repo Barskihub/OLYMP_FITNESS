@@ -207,7 +207,7 @@ a:hover {
 .js_number {
     font-size: 65px;
     color: #f4f4f4;
-    opacity: 0%;
+    opacity: 0;
 }
 .div_pl_up_el {
     display: flex;
@@ -660,6 +660,7 @@ a:hover {
 /*END FOOTER*/
 
 /*START ADAPTIVE*/
+
 @media (max-width: 1080px) {
     .art_sec_h3 {
         font-size: 33px;
@@ -731,8 +732,9 @@ a:hover {
     }
 }
 /*Mobile design*/
-@media (max-width: 730px) {
+@media only screen and (max-width: 730px) {
     /*Fixed header*/
+
     h2 {
         font-size: 23px;
     }
@@ -759,7 +761,7 @@ a:hover {
         font-size: 16px;
         margin: auto;
     }
-    #nav_menu {
+    .nav_menu {
         font-size: 12px;
         margin: auto;
         text-align: center;
@@ -823,6 +825,7 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 @media (max-width: 530px) {
     #header_mobile {
