@@ -675,6 +675,9 @@ a:hover {
     padding-right: 5px;
 }
 @media (max-width: 1080px) {
+    #logo_mobile {
+        margin: auto;
+    }
     .art_sec_h3 {
         font-size: 33px;
     }
@@ -750,7 +753,7 @@ a:hover {
     .Navbar__Items,
     .Navbar {
         flex-direction: column;
-        margin-right: auto;
+        text-align: center;
     }
     .Navbar__Items {
         display: none;
@@ -765,10 +768,6 @@ a:hover {
         opacity: 0.92;
         background: #302F2B;
         margin-top: 7%;
-        padding-left: 9%;
-        padding-right: 11%;
-        text-align: center;
-        margin-left: -26px;
     }
     h2 {
         font-size: 23px;
