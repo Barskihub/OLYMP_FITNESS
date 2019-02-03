@@ -21,6 +21,7 @@ $(document).ready(function () {
     });
 
 });
+// MEMBERSHIP
 function classToggle() {
     const navs = document.querySelectorAll('.Navbar__Items')
 
@@ -28,3 +29,27 @@ function classToggle() {
 }
 document.querySelector('.Navbar__Link-toggle')
     .addEventListener('click', classToggle);
+
+function classToggleMem() {
+    const navs = document.querySelectorAll('.m_c')
+
+    navs.forEach(nav => nav.classList.toggle('m_c__ToggleShow'));
+}
+document.querySelector('.MemItems__ButtonTrigger')
+    .addEventListener('click', classToggleMem);
+
+function classToggleMem2() {
+    const navs = document.querySelectorAll('.m_c2')
+
+    navs.forEach(nav => nav.classList.toggle('m_c__ToggleShow_2'));
+}
+document.querySelector('.MemItems__ButtonTrigger_2')
+    .addEventListener('click', classToggleMem2);
+
+function classToggleMem3() {
+    const navs = document.querySelectorAll('.m_c3')
+
+    navs.forEach(nav => nav.classList.toggle('m_c__ToggleShow_3'));
+}
+document.querySelector('.MemItems__ButtonTrigger_3')
+    .addEventListener('click', classToggleMem3);
