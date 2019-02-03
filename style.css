@@ -675,9 +675,6 @@ a:hover {
     display: flex;
 }
 @media (max-width: 1080px) {
-    #logo_mobile {
-        margin: auto;
-    }
     .art_sec_h3 {
         font-size: 33px;
     }
@@ -758,6 +755,9 @@ a:hover {
 /*Mobile design*/
 @media only screen and (max-width: 730px) {
     /*Fixed header*/
+    .logo_name_1_el_mobile {
+        padding-right: 11vw;
+    }
     .sp_offer_el {
         padding: 7vw 0 0 5vw;
     }
@@ -803,7 +803,7 @@ a:hover {
     #header_mobile {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10vw;
+        grid-gap: 6vw;
         padding: 0 7%;
     }
     #mob_h {
@@ -982,6 +982,9 @@ a:hover {
 @media (max-width: 510px) {
     .sp_offer_el {
         padding: 12vw 0 0 7vw;
+    }
+    #header_mobile {
+        grid-gap: 5vw;
     }
 }
 @media (max-width: 390px) {
