@@ -882,15 +882,12 @@ a:hover {
     .Navbar__Link-toggle {
         display: initial;
         cursor: pointer;
-        padding-top: 14px;
-        padding-left: 8vw;
     }
     .Navbar__ToggleShow {
         display: grid;
         position: absolute;
         opacity: 0.92;
         background: #302F2B;
-        margin-top: 44px;
         grid-template-columns: repeat(1, 1fr);
         padding: 0 9.16vw;
     }
@@ -928,6 +925,8 @@ a:hover {
         margin-right: auto;
         text-align: center;
         display: flex;
+        padding-top: 15px;
+        padding-left: 8vw;
     }
     #menu_t {
         font-size: 21px;
