@@ -1125,7 +1125,6 @@ a:hover {
     .sp_offer_p_el {
         font-size: 17px;
     }
-
 }
 @media (max-width: 390px) {
     .sp_offer_el {
@@ -1136,5 +1135,16 @@ a:hover {
     }
     #logo_div {
         font-size: 23px;
+    }
+}
+@media (max-width: 355px) {
+    .sp_offer_1_el {
+        height: 62px;
+    }
+    .big_2_el {
+        font-size: 85px;
+    }
+    .sp_big_el {
+        font-size: 18px;
     }
 }
