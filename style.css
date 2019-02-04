@@ -911,7 +911,7 @@ a:hover {
     #header_mobile {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 6vw;
+        grid-gap: 10vw;
         padding: 8px 7vw 0 8vw;
         background: #302F2B;
         z-index: 1;
