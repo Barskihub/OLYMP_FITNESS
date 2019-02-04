@@ -866,9 +866,6 @@ a:hover {
 /*Mobile design*/
 @media only screen and (max-width: 730px) {
     /*Fixed header*/
-    #main_section {
-        padding-top: 55px;
-    }
     .logo_name_1_el_mobile {
         padding-right: 11vw;
     }
@@ -919,7 +916,6 @@ a:hover {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 6vw;
         padding: 4px 7vw 0 8vw;
-        position: fixed;
         background: #302F2B;
         z-index: 1;
     }
