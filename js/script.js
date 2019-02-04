@@ -1,3 +1,4 @@
+// ABOUT US PART, TRANSFER NUMBERS
 $(document).ready(function () {
 
     var show = true;
@@ -21,7 +22,7 @@ $(document).ready(function () {
     });
 
 });
-// MEMBERSHIP
+// NAV BAR ON MOBILE MAX-WIDTH 730PX
 function classToggle() {
     const navs = document.querySelectorAll('.Navbar__Items')
 
@@ -29,7 +30,7 @@ function classToggle() {
 }
 document.querySelector('.Navbar__Link-toggle')
     .addEventListener('click', classToggle);
-
+// MEMBERSHIP 6 MONTH
 function classToggleMem() {
     const navs = document.querySelectorAll('.m_c')
 
@@ -37,7 +38,7 @@ function classToggleMem() {
 }
 document.querySelector('.MemItems__ButtonTrigger')
     .addEventListener('click', classToggleMem);
-
+// MEMBERSHIP 6/12 MONTH MORNING
 function classToggleMem2() {
     const navs = document.querySelectorAll('.m_c2')
 
@@ -45,7 +46,7 @@ function classToggleMem2() {
 }
 document.querySelector('.MemItems__ButtonTrigger_2')
     .addEventListener('click', classToggleMem2);
-
+//MEMBERSHIP 12 MONTH
 function classToggleMem3() {
     const navs = document.querySelectorAll('.m_c3')
 
