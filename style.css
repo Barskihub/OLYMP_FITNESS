@@ -940,7 +940,7 @@ a:hover {
         height: 24px;
     }
     .headline_st_el {
-        font-size: 15px;
+        font-size: 25px;
         padding: 11px 0;
     }
     .headline_st_el::before, .headline_st_el::after {
