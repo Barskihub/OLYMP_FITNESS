@@ -866,6 +866,9 @@ a:hover {
 /*Mobile design*/
 @media only screen and (max-width: 730px) {
     /*Fixed header*/
+    #main_section {
+        margin-top: 66px;
+    }
     .logo_name_1_el_mobile {
         padding-right: 11vw;
     }
@@ -893,13 +896,13 @@ a:hover {
         background: #302F2B;
         margin-top: 44px;
         grid-template-columns: repeat(1, 1fr);
-        padding: 0 9.4%;
+        padding: 0 9.16vw;
     }
     h2 {
         font-size: 23px;
     }
     .header_el {
-        margin: 15px 0 8px 0;
+        margin: 0 0 8px 0;
     }
     #logo_name_1, #logo_name_img, #logo_name_2 {
         display: none;
@@ -915,7 +918,10 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 6vw;
-        padding: 0 7%;
+        padding: 4px 7vw 0 8vw;
+        position: fixed;
+        background: #302F2B;
+        z-index: 1;
     }
     #mob_h {
         font-size: 16px;
@@ -941,8 +947,8 @@ a:hover {
         display: none;
     }
     .main_text_st_el {
-        font-size: 15px;
-        width: 74.3%;
+        font-size: 22px;
+        width: 80.3%;
         letter-spacing: 1px;
     }
     .plus_st_el {
@@ -1071,24 +1077,24 @@ a:hover {
         height: 52vw;
     }
     .sp_offer_el {
-        padding: 12vw 0 0 7vw;
+        padding: 7vw 0 0 7vw;
     }
     .sp_offer_1_el {
-        height: 74px;
+        height: 99px;
     }
     .big_2_el {
-        font-size: 80px;
-        top: -7px;
+        font-size: 124px;
+        top: -15px;
     }
     .sp_big_el {
-        font-size: 21px;
+        font-size: 29px;
     }
     .sp_offer_p_el {
-        font-size: 14px;
-        height: 33px;
+        font-size: 17px;
+        height: 46px;
     }
     .booking_fc_button_el {
-        font-size: 12px;
+        font-size: 19px;
         border: 1px solid #CAA869;
         padding: 0.2em 0.5em;
     }
@@ -1096,7 +1102,7 @@ a:hover {
 
 @media (max-width: 510px) {
     .sp_offer_el {
-        padding: 12vw 0 0 7vw;
+        padding: 4vw 0 0 5vw;
     }
     #header_mobile {
         grid-gap: 5vw;
@@ -1111,6 +1117,19 @@ a:hover {
     #logo_div {
         font-size: 23px;
     }
+    .sp_offer_1_el {
+        height: 75px;
+    }
+    .big_2_el {
+        font-size: 100px;
+    }
+    .sp_big_el {
+        font-size: 22px;
+    }
+    .sp_offer_p_el {
+        font-size: 17px;
+    }
+
 }
 @media (max-width: 390px) {
     .sp_offer_el {
