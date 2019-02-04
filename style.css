@@ -832,7 +832,7 @@ a:hover {
     .img-style.next
     {
         position: absolute;
-        height: 93%;
+        height: 83%;
         opacity: 0;
         left: 4.9%;
     }
@@ -1138,13 +1138,26 @@ a:hover {
     }
 }
 @media (max-width: 355px) {
+    #header_mobile {
+        grid-gap: 2vw;
+    }
     .sp_offer_1_el {
-        height: 62px;
+        height: 63px;
     }
     .big_2_el {
         font-size: 85px;
     }
     .sp_big_el {
         font-size: 18px;
+    }
+    .sp_offer_p_el {
+        font-size: 14px;
+        height: 37px;
+    }
+    #logo_div {
+        font-size: 19px;
+    }
+    #nav_div {
+        font-size: 11px;
     }
 }
