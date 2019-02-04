@@ -682,7 +682,6 @@ a:hover {
     text-align: left;
 }
 .Navbar {
-    display: flex;
 }
 .Navbar__Items {
     display: flex;
