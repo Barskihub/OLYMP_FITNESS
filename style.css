@@ -899,7 +899,8 @@ a:hover {
         font-size: 23px;
     }
     .header_el {
-        margin: 0 0 8px 0;
+        margin: 0;
+        height: 68px;
     }
     #logo_name_1, #logo_name_img, #logo_name_2 {
         display: none;
@@ -915,7 +916,7 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 6vw;
-        padding: 4px 7vw 0 8vw;
+        padding: 8px 7vw 0 8vw;
         background: #302F2B;
         z-index: 1;
     }
