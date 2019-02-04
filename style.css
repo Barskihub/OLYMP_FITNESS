@@ -919,6 +919,7 @@ a:hover {
         padding: 8px 7vw 0 8vw;
         background: #302F2B;
         z-index: 1;
+        position: fixed;
     }
     #mob_h {
         font-size: 16px;
