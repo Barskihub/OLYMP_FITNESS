@@ -867,7 +867,7 @@ a:hover {
 @media only screen and (max-width: 730px) {
     /*Fixed header*/
     #main_section {
-        margin-top: 66px;
+        padding-top: 55px;
     }
     .logo_name_1_el_mobile {
         padding-right: 11vw;
