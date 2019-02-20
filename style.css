@@ -1,3 +1,4 @@
+/*START CSS WITH OUT BEM*/
 /*FONTS*/
 @font-face {
     font-family: 'FuturaMediumC';
@@ -40,7 +41,6 @@ html {
     font-family: 'FuturaMediumC';
     font-weight: 500;
     font-style: normal;
-
 }
 a {
     text-decoration: none;
@@ -54,7 +54,6 @@ a:hover {
     text-decoration: underline;
 }
 /*WRAPPER*/
-
 /*HEADER SITTINGS*/
 .header_el {
     text-align: center;
@@ -78,8 +77,7 @@ a:hover {
 #header_mobile {
     display: none;
 }
-/*END HEADER SITTINGS*/
-
+/*HEADER SITTINGS*/
 /*SPECIAL_OFFER_SECTION*/
 .special_offer_section_el {
     background: url("image/top-banner 2.jpg") no-repeat;
@@ -147,7 +145,7 @@ a:hover {
 .booking_fc_button_el:active {
     background: white;
 }
-/*END SPECIAL OFFER PART*/
+/*END SPECIAL OFFER*/
 
 /*SOME THINGS ABOUT US*/
 .headline_st_el {
@@ -186,7 +184,7 @@ a:hover {
     width: 62.3%;
     position: relative;
 }
-/* TRANSFER NUMBERS!!!*/
+/* TRANSFER NUMBERS!*/
 .plus_st_el {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -235,25 +233,6 @@ a:hover {
     text-align: center;
     padding: 16% 0 0 24%;
 }
-
-/*LINES*/
-/*#pl_2_1:before {
-    content: url("image/Line_1.png");
-    display: block;
-    margin: -74% 38% -12% -31%;
-}
-#pl_1_2:before {
-    content: url("image/Line_2.png");
-    display: block;
-    margin: -6% 0% -47.2% -46%;
-    padding-top: 15%;
-}
-#pl_1_2:after {
-    content: url("image/Line_3.png");
-    display: block;
-    margin: 0 0 0 0;
-}*/
-
 .a_join_1_el {
     display: flex;
     padding-top: 91px;
@@ -464,7 +443,6 @@ a:hover {
     display: none;
 }
 /*END MEMBERSHIP*/
-
 /*START GALLERY*/
 .div-style {
     display: none;
